@@ -5,10 +5,19 @@ const caixaResultado = document.queryselector(".caixa-resultado");
 const textoResultado = document.queryselector(".texto-resultado");
 
 const perguntas = [
-    enunciado: "Pergunta 1",
-    alternativas: [
-        "Alternativa 1",
-        "Alternativa 2"
-    ]
-    
-    "Pergunta 2"]
+    {
+        enunciado: "Pergunta 1",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+
+    {
+        enunciado: "Pergunta 1",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    }
+]
